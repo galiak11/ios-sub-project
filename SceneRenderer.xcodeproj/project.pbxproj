@@ -10,6 +10,8 @@
 		6DB4E5231A8E670D001C2929 /* SceneRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DB4E5221A8E670D001C2929 /* SceneRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DB4E5291A8E670D001C2929 /* SceneRenderer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB4E51D1A8E670D001C2929 /* SceneRenderer.framework */; };
 		6DB4E5301A8E670D001C2929 /* SceneRendererTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB4E52F1A8E670D001C2929 /* SceneRendererTests.m */; };
+		6DB4E53B1A8E6734001C2929 /* SceneTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DB4E5391A8E6734001C2929 /* SceneTest.h */; };
+		6DB4E53C1A8E6734001C2929 /* SceneTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB4E53A1A8E6734001C2929 /* SceneTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		6DB4E5281A8E670D001C2929 /* SceneRendererTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SceneRendererTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB4E52E1A8E670D001C2929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DB4E52F1A8E670D001C2929 /* SceneRendererTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneRendererTests.m; sourceTree = "<group>"; };
+		6DB4E5391A8E6734001C2929 /* SceneTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneTest.h; sourceTree = "<group>"; };
+		6DB4E53A1A8E6734001C2929 /* SceneTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				6DB4E5221A8E670D001C2929 /* SceneRenderer.h */,
 				6DB4E5201A8E670D001C2929 /* Supporting Files */,
+				6DB4E5391A8E6734001C2929 /* SceneTest.h */,
+				6DB4E53A1A8E6734001C2929 /* SceneTest.m */,
 			);
 			path = SceneRenderer;
 			sourceTree = "<group>";
@@ -110,6 +116,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DB4E5231A8E670D001C2929 /* SceneRenderer.h in Headers */,
+				6DB4E53B1A8E6734001C2929 /* SceneTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB4E53C1A8E6734001C2929 /* SceneTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
